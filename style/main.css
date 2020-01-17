@@ -1,7 +1,48 @@
 
-
+body {
+	margin: 0;
+	font-family: "Lato", sans-serif;
+}
 
 
 .first {
 	background-color: black;
+	height: 50px;
+}
+
+.first ul {
+	margin: 0;
+	list-style: none;
+	width: max-content;
+	height: max-content;
+}
+
+.first ul li {
+	float: left;
+}
+
+.first ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 15px 15px;
+	display: block;
+}
+
+.fa {
+	color: white;
+	float: right;
+	display: block;
+}
+
+.dropdown {
+	display: none;
+}
+
+.open-dropdown:hover .dropdown {
+	display: block;
+}
+.dropdown ul {
+	position: absolute;
+	text-align: left;
+	background-color: black
 }
