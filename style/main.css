@@ -22,17 +22,29 @@ body {
 }
 
 .first ul li a {
-	text-decoration: none;
-	color: white;
-	padding: 15px 15px;
-	display: block;
+	font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 15px 24px;
+    display: block;
+    line-height: 1.5;
 }
 
-.fa {
+.search-icon {
 	color: white;
 	float: right;
 	display: block;
 }
+
+.icon-header {
+	position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+
+/*dropdown*/
 
 .dropdown {
 	display: none;
@@ -41,8 +53,10 @@ body {
 .open-dropdown:hover .dropdown {
 	display: block;
 }
+
 .dropdown ul {
 	position: absolute;
 	text-align: left;
 	background-color: black
 }
+
